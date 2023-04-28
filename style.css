@@ -4,40 +4,29 @@
     box-sizing: border-box;
 }
 
-.continer {
+body{
     height: 100vh;
-    border: solid;
-    background-color: black;
-}
-
-.box {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    border: solid;
+    background-color: #151B29;
 }
+
+
 
 button {
     border: solid;
-    width: 75px;
-    height: 40px;
-    border-color: rgb(218, 218, 88);
-    color: white;
-    background-color: black;
+    border-color: #ffa260;
+    color: #ffa260;
+    background:none;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: 0.5s;
 
 }
-.hover2 button:hover{
-   
-   
-  }
 
 
 button:hover {
-    background-color: #000000;
-    box-shadow: 5px 5px 10px rgba(233, 230, 39, 0.986);
-    position: relative;
-    top: -5px;
-    transition: 0.8s;
-
-}
+   transform: translate(0px,-5px);
+   box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
+   ;
